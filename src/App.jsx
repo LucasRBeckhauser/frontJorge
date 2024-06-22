@@ -5,7 +5,10 @@ import Header from './components/header/Header';
 import Home from './pages/home/home';
 import Colaboradores from './pages/colaboradores/Colaboradores';
 import Demissao from './pages/demissao/Demissao';
-import Admissao from './pages/admissao/Admissao';
+import Admissao from './pages/admissao/ComponentesAdmissao';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 export default function App() {
@@ -14,10 +17,10 @@ export default function App() {
       <BrowserRouter>
       <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="colaboradores" element ={<Colaboradores/>}/>
-          <Route path="admissao" element = {<Admissao/>} /> 
-          <Route path= "demissao" element = {<Demissao/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/colaboradores" element={<Colaboradores />} />
+        <Route path="/admissao" element={<Admissao />} />
+        <Route path="/demissao" element={<Demissao />} />
         </Routes>
       <Footer />
       </BrowserRouter>
