@@ -1,11 +1,14 @@
-import styles from './footer.module.css';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
 
 export default function Footer() {
     return (
-        <>
-            <footer className={styles.rodape}>
-                <p>© Portal Rh 2024.</p>
-            </footer>
-        </>
-    )
+        <Navbar bg="light" className="mt-auto">
+            <Container className="justify-content-center">
+                <Navbar.Text>
+                    © Portal Rh 2024.
+                </Navbar.Text>
+            </Container>
+        </Navbar>
+    );
 }
