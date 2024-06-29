@@ -5,7 +5,7 @@ import Header from './components/header/Header';
 import Home from './pages/home/home';
 import Colaboradores from './pages/colaboradores/Colaboradores';
 import Demissao from './pages/demissao/Demissao';
-import Admissao from './pages/admissao/ComponentesAdmissao';
+import Admissao from './components/admissao/ComponentesAdmissao';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
